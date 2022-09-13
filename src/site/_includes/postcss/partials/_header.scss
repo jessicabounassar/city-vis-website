@@ -77,6 +77,8 @@
       position: absolute;
       top: 48px;
       width: 100%;
+      max-height: calc(100vh - 48px);
+      overflow-y: auto;
     }
 
     &.active {
@@ -111,6 +113,10 @@
         padding: 10px 0;
         text-align: center;
         width: 100%;
+
+        &:nth-of-type(4) .header__navigation-sublist{
+          width: auto;
+        }
 
         a {
           color: $primary-color;

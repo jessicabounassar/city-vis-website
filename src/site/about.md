@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CityVis
+title: About
 eleventyNavigation:
   key: About
   order: -1

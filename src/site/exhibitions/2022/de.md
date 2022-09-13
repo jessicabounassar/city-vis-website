@@ -22,11 +22,11 @@ City
 Vis
 </div>
 <ul class="categories">
-<li class="categories-item active">Research</li>
-<li class="categories-item">Contract</li>
-<li class="categories-item">Art & Advocacy</li>
-<li class="categories-item">Journalistic</li>
-<li class="categories-item">Student</li>
+<li class="categories-item active">Wissenschaft</li>
+<li class="categories-item">Auftragsarbeiten</li>
+<li class="categories-item">Kunst & Aktivismus</li>
+<li class="categories-item">Journalismus</li>
+<li class="categories-item">Student*innen</li>
 </ul>
 
 <div class="header-open">
@@ -120,17 +120,40 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
 </svg>
 
 </section>
+
+<a class="exhibition-language-link" href="/exhibitions/2022/en/">English&nbsp;&raquo;</a>
+
 <section class="section section-info section-text">
-<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learn from the past, understand the present, <br />and plan for a better future.</h3>
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Von der Vergangenheit lernen, die Gegenwart verstehen <br />und Visionen für eine bessere Zukunft.</h3>
 
-Our urban systems are interwoven with digital infrastructures. Data has become an essential
-component for modern services, from managing urban mobility to guiding political decision making.
-This new layer in our cities is mostly invisible.
-
-<strong>More information soon.</strong>
-
+<p>
+Unsere städtischen Strukturen, ob gebaut oder sozial, sind eng verwoben mit digitalen Infrastrukturen. Daten sind essentielle Bestandteile moderner Systeme, von der Verkehrslenkung bis hin zu politischen Entscheidungen. Diese neue Ebene unserer Städte ist meist unsichtbar. Durch die CityVis Platform versuchen wir beispielhafte Arbeiten aus aller Welt für die Sichtbarmachung dieser neuen Strukturen und Informationen zu sammeln und dadurch Akteuer*innen zu vernetzen.
+</p>
+<h3>Ausstellung</h3>
+<p>
+2022 haben wir den Dritten <a href="/competitions/2022/">CityVis Wettbewerb</a> ausgerufen. Projekte rund um den Globus wurden zum Wettbewerb eingereicht. Über den Sommer hat eine internationale Jury diese herausragenden Arbeiten begutachtet. Die Ausstellung zeigt nun die besten Arbeiten aus den Kategorien: <strong>Wissenschaft, Journalismus, Kunst &amp; Aktivismus, Auftragsarbeit and studentische Arbeiten</strong>.
+</p>
+<h3>Hybrides Symposium & Vernissage</h3>
+<p>
+Zur Eröffnung der Ausstellung organisieren wir ein hybrides <a href="/exhibitions/2022/symposium_en/">Symposium</a>. Drei internationale Sprecher*innen werden Chancen und Herausforderungen der Smart City und Urbaner Daten aus unterschiedlichen Perspektiven diskutieren. Wir schließen das Symposium mit der Vorstellung der diesjährigen Gewinner und der offiziellen Eröffnung der Ausstellung.
+<br /><br />
+Das Symposium und die Ankündigungen werden hybrid abgehalten. Sie können sich jetzt schon für den Live-Stream registrieren. Wir werden kurz vor der Veranstaltung eine Einladung für das vor-Ort Event verschicken, soweit die aktuellen COVID-Bestimmungen bekannt sind.
+</p>
+<p style="text-align:center; padding-bottom: 50px;">
+<a class="upcoming-link" style="color:white;" href="/exhibitions/2022/symposium_en/">Mehr zum Symposium &amp; Registrierung</a>
+</p>
+<img style="width:100%;" src="/assets/img/winners-2022_de.jpg" alt="Gewinner*innen des CityVis Wettbewerbs 2022" />
+<p style="text-align:center;">
+<a class="upcoming-link" href="/competitions/2022" style="color:#fff;">Mehr über die Exponate erfahren</a>
+</p>
+<!--
+<br />
+<a class="download-press" href="/assets/press/potsdam2022.zip">
+Download Press Kit
+<span class="download-press-arrow"></span>
+</a>
+-->
 </section>
-
 
 <section class="section section-about section-text">
 <h3>Ort</h3>
@@ -142,6 +165,63 @@ This new layer in our cities is mostly invisible.
 <div class="address-line">Am Kanal 47</div>
 <div class="address-line">(Am Platz der Einheit)</div>
 <div class="address-line">14467 Potsdam</div>
+</div>
+<div class="opening">
+<a href="https://www.wis-potsdam.de/de/oeffnungszeiten">
+<div class="address-name">Öffnungszeiten</div>
+</a>
+
+<div class="opening-hours">
+<div>Montag&thinsp;-&thinsp;Freitag</div>
+<div>Von 10:00 bis 16:00 Uhr</div>
+</div>
+<div class="opening-hint">
+Öffnungszeiten können abweichen.<br />
+Aktuelle Informationen <a href="https://www.wis-potsdam.de/de/oeffnungszeiten">hier</a>.
+</div>
+</div>
+</div>
+</section>
+
+<section class="section section-footer">
+<div class="footer-inner" style="margin-bottom:50px;">
+  <div class="map-container">
+    <img class="map" src="/assets/img/exhibition-22-map-de.svg" alt="map" />
+  </div>
+</div>
+
+<h3>Unterstützung</h3>
+<a style="margin:50px 0 0 0;" href="https://www.dgfk.net">
+<img src="/assets/img/partners/dgfk_blue.svg" style="max-width: 90%; max-height: 60px;" alt="DGfK - Deutsche Gesellschaft für Kartographie" />
+</a>
+<div class="logos-text">Wir danken der Deutschen Gesellschaft für Kartographie &nbsp;(DGfK) für die Unterstützung bei der Eröffnung und dem Symposium.</div>
+
+<div class="committee">
+<h3>Organisatoren</h3>
+
+<ul class="committee-list">
+<li class="committee-list__item">
+Sebastian Meier
+<span class="committee-list__item--institution">
+Fachhochschule Potsdam
+</span>
+</li>
+<li class="committee-list__item">
+Giacomo Marinsalta
+<span class="committee-list__item--institution">
+Fachhochschule Potsdam
+</span>
+</li>
+</ul>
+</div>
+
+<div class="committee">
+<h3>Kontakt</h3>
+<div>
+Sollten Sie Fragen haben, wenden Sie sich gerne an uns: 
+<a href="mailto:sebastian.meier@fh-potsdam.de">
+sebastian.meier@fh-potsdam.de
+</a>
 </div>
 </div>
 </section>
