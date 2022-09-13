@@ -31,7 +31,7 @@ Vis
 
 <div class="header-open">
 <div class="header-open-item">
-<div class="header-open-item--first">Vernissage</div>
+<div class="header-open-item--first">Symposium & Vernissage</div>
 <div class="header-open-item--second">03.11.2022 18 Uhr</div>
 </div>
 <div class="header-open-item">
