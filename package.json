@@ -1,0 +1,53 @@
+{
+  "name": "city-vis-website",
+  "title": "Visualizing Cities - An open platform for urban visualization projects",
+  "version": "2.0.0",
+  "description": "www.cityvis.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
+    "build": "cross-env ELEVENTY_ENV=prod eleventy",
+    "seed": "cross-env ELEVENTY_ENV=seed eleventy",
+    "serve": "http-server ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-meier/city-vis-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastian-meier/city-vis-website/issues"
+  },
+  "homepage": "https://github.com/sebastian-meier/city-vis-website#readme",
+  "keywords": [],
+  "author": "sebastian-meier",
+  "license": "MIT",
+  "engines": {
+    "npm": ">=8.3.0",
+    "node": ">=16.13.1"
+  },
+  "devDependencies": {
+    "cross-env": "5.2.0",
+    "fast-xml-parser": "^4.0.1",
+    "http-server": "^14.1.0",
+    "sharp": "^0.30.3",
+    "slugify": "^1.6.5"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-navigation": "^0.3.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
+    "cssnano": "^5.0.16",
+    "eleventy-plugin-toc": "^1.1.5",
+    "moment": "^2.29.1",
+    "postcss": "^8.4.12",
+    "postcss-color-mix": "^1.1.0",
+    "postcss-hexrgba": "^2.0.1",
+    "postcss-import": "^14.1.0",
+    "postcss-mixins": "^9.0.2",
+    "postcss-normalize": "^10.0.1",
+    "postcss-preset-env": "^7.4.3",
+    "precss": "^4.0.0",
+    "uglify-js": "^3.14.5"
+  }
+}

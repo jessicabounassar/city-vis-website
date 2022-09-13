@@ -1,0 +1,108 @@
+---
+layout: project
+pagination:
+    data: projects
+    size: 1
+    alias: project
+permalink: "collection/project/{{ project.short_title | slugify }}/"
+---
+
+<div class="project__image" style="background-image:url(/assets/img/project_images/{{ project.imageNames[0] }});"></div>
+<section class="section project">
+
+<div class="project__description">
+{% if project.winner %}
+<p><i>Competition {{ project.winner.year }}:</i> {{ project.winner.type }} in the category {{taxonomyMap['types'][taxonomyMap['types'].map[project.types[0]].group][taxonomyMap['types'].map[project.types[0]].id].key}}</p>
+{% endif %}
+<h1 class="project__description--title">{{ project.project_title }}</h1>
+<span class="project__description--year">{% if project.organization %}{{ project.organization }}{% else %}{{ project.first_name}} {{ project.last_name}}{% endif %}, {{ project.project_year }}</span>
+
+<div class="project__tags">
+
+{% if project.areas.length > 0 %}
+<span class="project__tags__row">
+<span class="project__tags__row--title">Area</span>
+{% for id in project.areas %}
+<span class="project__tags__row--tag">{{ taxonomyMap['areas'][taxonomyMap['areas'].map[id].group][taxonomyMap['areas'].map[id].id].key }}</span>
+{% endfor %}
+</span>
+{% endif %}
+
+{% if project.mediums.length > 0 %}
+<span class="project__tags__row">
+<span class="project__tags__row--title">Medium</span>
+{% for id in project.mediums %}
+<span class="project__tags__row--tag">{{ taxonomyMap['mediums'][taxonomyMap['mediums'].map[id].group][taxonomyMap['mediums'].map[id].id].key }}</span>
+{% endfor %}
+</span>
+{% endif %}
+
+{% if project.types.length > 0 %}
+<span class="project__tags__row">
+<span class="project__tags__row--title">Type</span>
+{% for id in project.types %}
+<span class="project__tags__row--tag">{{ taxonomyMap['types'][taxonomyMap['types'].map[id].group][taxonomyMap['types'].map[id].id].key }}</span>
+{% endfor %}
+</span>
+{% endif %}
+
+</div>
+
+<p class="project-body">
+{{ project.project_description | nl2br | safe }}
+</p>
+
+{% if project.imageNames.length >= 1 %}
+<ul class="project__image-list">
+{% for imageName in project.imageNames %}
+<li class="project__image-list__item">
+<img src="/assets/img/project_images/{{ imageName }}" />
+</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if project.links.length > 0 %}
+<h2>Links</h2>
+<ul class="project__link-list">
+{% for link in project.links %}
+<li class="project__link-list__item">
+<a href="{{link.value}}">
+{{ link.value | truncate(30) }}
+</a>
+</li>
+{% endfor %}	
+</ul>
+{% endif %}
+
+<h2>Authors</h2>
+<ul class="project__author-list">
+{# <li class="project__author-list__item">
+<span class="project__author-list__item--name">
+{{ project.last_name }}, {{ project.first_name }}
+</span>
+<span class="project__author-list__item--institution">
+{{ project.organization }}
+</span>
+</li> #}
+{% for author in project.authors | sort(false, false, 'sort')  %}
+<li class="project__author-list__item">
+<span class="project__author-list__item--name">
+{{ author.name }}
+</span>
+<span class="project__author-list__item--institution">
+{{ author.organization }}
+</span>
+</li>
+{% endfor %}
+</ul>
+
+
+{% if project.project_partner.length > 0 %}
+<h2>Project Partner</h2>
+<p>{{project.project_partner}}</p>
+{% endif %}
+
+</div>
+</div>
+</section>

@@ -1,0 +1,440 @@
+{
+  "types": {
+    "taxonomies": [
+      {
+        "key": "Research",
+        "id": 1,
+        "count": 116
+      },
+      {
+        "key": "Journalistic",
+        "id": 2,
+        "count": 28
+      },
+      {
+        "key": "Contract",
+        "id": 5,
+        "count": 15
+      },
+      {
+        "key": "ArtAdvocacy",
+        "id": 12,
+        "count": 16
+      },
+      {
+        "key": "Student",
+        "id": 15,
+        "count": 8
+      },
+      {
+        "key": "Education",
+        "id": 17,
+        "count": 1
+      },
+      {
+        "key": "Berlin",
+        "id": 20,
+        "count": 1
+      },
+      {
+        "key": "Other",
+        "id": 21,
+        "count": 3
+      }
+    ],
+    "other": [
+      {
+        "key": "counter-topography................................",
+        "id": 3,
+        "count": 1
+      },
+      {
+        "key": "Documentary Filmmaking; Visual Anthropology",
+        "id": 4,
+        "count": 1
+      },
+      {
+        "key": "NGO collaboration",
+        "id": 6,
+        "count": 1
+      },
+      {
+        "key": "We continuously develop software tools for geographic  information visualization.",
+        "id": 7,
+        "count": 1
+      },
+      {
+        "key": "Research and Art",
+        "id": 8,
+        "count": 1
+      },
+      {
+        "key": "Space Syntax: Spatial Integration Accessibility and Angular Segment Analysis by Metric Distance",
+        "id": 9,
+        "count": 1
+      },
+      {
+        "key": "Design Research ",
+        "id": 10,
+        "count": 1
+      },
+      {
+        "key": "Design Research / Design Fiction",
+        "id": 11,
+        "count": 1
+      },
+      {
+        "key": "Sound heritage archive",
+        "id": 13,
+        "count": 1
+      },
+      {
+        "key": "series of films on the development of high quality architecture and planning in 5 cities on 3 continents.",
+        "id": 14,
+        "count": 1
+      },
+      {
+        "key": "scholar-activism",
+        "id": 16,
+        "count": 1
+      },
+      {
+        "key": "Event + Research + Debate",
+        "id": 18,
+        "count": 1
+      },
+      {
+        "key": "Digitisation, Data Divide",
+        "id": 19,
+        "count": 1
+      }
+    ]
+  },
+  "areas": {
+    "taxonomies": [
+      {
+        "key": "Mobility",
+        "id": 1,
+        "count": 42
+      },
+      {
+        "key": "Culture",
+        "id": 3,
+        "count": 47
+      },
+      {
+        "key": "Civic",
+        "id": 4,
+        "count": 37
+      },
+      {
+        "key": "Planning",
+        "id": 6,
+        "count": 67
+      },
+      {
+        "key": "Housing",
+        "id": 7,
+        "count": 23
+      },
+      {
+        "key": "Knowledge",
+        "id": 10,
+        "count": 1
+      },
+      {
+        "key": "Heritage",
+        "id": 11,
+        "count": 2
+      },
+      {
+        "key": "Sustainability",
+        "id": 19,
+        "count": 1
+      },
+      {
+        "key": "Environment",
+        "id": 23,
+        "count": 1
+      },
+      {
+        "key": "Berlin",
+        "id": 26,
+        "count": 6
+      },
+      {
+        "key": "Tourism",
+        "id": 29,
+        "count": 1
+      },
+      {
+        "key": "Security",
+        "id": 35,
+        "count": 1
+      },
+      {
+        "key": "Other",
+        "id": 36,
+        "count": 5
+      }
+    ],
+    "other": [
+      {
+        "key": "Urban Development",
+        "id": 2,
+        "count": 78
+      },
+      {
+        "key": "Real estate",
+        "id": 5,
+        "count": 11
+      },
+      {
+        "key": "architecture",
+        "id": 8,
+        "count": 1
+      },
+      {
+        "key": "gentrification, social housing",
+        "id": 9,
+        "count": 1
+      },
+      {
+        "key": "History",
+        "id": 12,
+        "count": 3
+      },
+      {
+        "key": "Urban transition pathways",
+        "id": 13,
+        "count": 1
+      },
+      {
+        "key": "Social, Technology",
+        "id": 14,
+        "count": 1
+      },
+      {
+        "key": "Supply chain transparency",
+        "id": 15,
+        "count": 1
+      },
+      {
+        "key": "Urban metabolism / Circular Economy",
+        "id": 16,
+        "count": 1
+      },
+      {
+        "key": "Conflict, displacement",
+        "id": 17,
+        "count": 1
+      },
+      {
+        "key": "Social Justice",
+        "id": 18,
+        "count": 1
+      },
+      {
+        "key": "Cityscape",
+        "id": 20,
+        "count": 1
+      },
+      {
+        "key": "Trade and economy",
+        "id": 21,
+        "count": 1
+      },
+      {
+        "key": "Water collection, Urban farming",
+        "id": 22,
+        "count": 1
+      },
+      {
+        "key": "Climate-Sensitive & Responsive Design and Planning ",
+        "id": 24,
+        "count": 1
+      },
+      {
+        "key": "Social integration, perception vs reality",
+        "id": 25,
+        "count": 1
+      },
+      {
+        "key": "Intangible Cultural Heritage",
+        "id": 27,
+        "count": 1
+      },
+      {
+        "key": "analysis",
+        "id": 28,
+        "count": 1
+      },
+      {
+        "key": "international affairs",
+        "id": 30,
+        "count": 1
+      },
+      {
+        "key": "Historical research",
+        "id": 31,
+        "count": 1
+      },
+      {
+        "key": "Intangible Cultural Heritage, Sound Archive",
+        "id": 32,
+        "count": 1
+      },
+      {
+        "key": "Social Justice, Conflict",
+        "id": 33,
+        "count": 1
+      },
+      {
+        "key": "Water",
+        "id": 34,
+        "count": 2
+      }
+    ]
+  },
+  "mediums": {
+    "taxonomies": [
+      {
+        "key": "Information Visualization",
+        "id": 1,
+        "count": 142
+      },
+      {
+        "key": "Infographic",
+        "id": 2,
+        "count": 21
+      },
+      {
+        "key": "Animation",
+        "id": 3,
+        "count": 15
+      },
+      {
+        "key": "Film",
+        "id": 4,
+        "count": 8
+      },
+      {
+        "key": "Physical Installation",
+        "id": 6,
+        "count": 24
+      },
+      {
+        "key": "Digitisation",
+        "id": 10,
+        "count": 1
+      },
+      {
+        "key": "Virtual Reality",
+        "id": 12,
+        "count": 6
+      },
+      {
+        "key": "Augmented Reality",
+        "id": 13,
+        "count": 4
+      },
+      {
+        "key": "Cartography",
+        "id": 17,
+        "count": 1
+      },
+      {
+        "key": "Maps",
+        "id": 20,
+        "count": 1
+      },
+      {
+        "key": "Interactive",
+        "id": 23,
+        "count": 1
+      },
+      {
+        "key": "Web application",
+        "id": 25,
+        "count": 2
+      }
+    ],
+    "other": [
+      {
+        "key": "decentralised data access to realtime data",
+        "id": 5,
+        "count": 1
+      },
+      {
+        "key": "Cartography, urban data analysis",
+        "id": 7,
+        "count": 2
+      },
+      {
+        "key": "Interactive cartography",
+        "id": 8,
+        "count": 2
+      },
+      {
+        "key": "Big data analysis",
+        "id": 9,
+        "count": 1
+      },
+      {
+        "key": "Cartography, urban data analysis, interactive",
+        "id": 11,
+        "count": 1
+      },
+      {
+        "key": "One map and one animation",
+        "id": 14,
+        "count": 1
+      },
+      {
+        "key": "Data Graphic",
+        "id": 15,
+        "count": 1
+      },
+      {
+        "key": "Geographic Visualization",
+        "id": 16,
+        "count": 1
+      },
+      {
+        "key": "Immersive Presentation",
+        "id": 18,
+        "count": 1
+      },
+      {
+        "key": "mapping",
+        "id": 19,
+        "count": 1
+      },
+      {
+        "key": "participatory ",
+        "id": 21,
+        "count": 1
+      },
+      {
+        "key": "Data visualization, Interactive installation",
+        "id": 22,
+        "count": 1
+      },
+      {
+        "key": "website",
+        "id": 24,
+        "count": 1
+      },
+      {
+        "key": "Web Application, Interactive Exhibition",
+        "id": 26,
+        "count": 1
+      },
+      {
+        "key": "Other",
+        "id": 27,
+        "count": 2
+      }
+    ]
+  }
+}

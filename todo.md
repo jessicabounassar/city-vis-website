@@ -1,0 +1,11 @@
+- Generate navigation automatically
+- Start page
+- Press add competition 2018
+- social media generation
+- MS-Forms
+- active state menu
+- page titles
+- filter on project overview
+- show awards of project overview
+- thumbnail slider on project details
+- mobile optimization

@@ -1,0 +1,38 @@
+<footer class="footer" role="contentinfo">
+    Lead Organizations
+    <div class="footer__partner-logos">
+        <a href="https://www.fh-potsdam.de/">
+            <img class="footer__partner-logos__logo" src="/assets/img/partners/fhp.svg" alt="University of Applied Sciences Potsdam">
+        </a>
+        <a href="https://www.monash.edu/">
+            <img class="footer__partner-logos__logo" src="/assets/img/partners/monash.svg" alt="Monash University">
+        </a>
+        <a href="https://www.american.edu/">
+            <img class="footer__partner-logos__logo" src="/assets/img/partners/american_university.svg" alt="American University">
+        </a>
+        <a href="https://www.sfu.ca">
+            <img class="footer__partner-logos__logo" src="/assets/img/partners/sfu.svg" alt="Simon Fraser University">
+        </a>
+        <a href="https://www.hdilab.org/">
+            <img class="footer__partner-logos__logo" src="/assets/img/partners/hsm.svg" alt="hochschule mannheim">
+        </a>
+        <a href="https://www.dgfk.net/sektionen/berlin-brandenburg/">
+            <img class="footer__partner-logos__logo" src="/assets/img/partners/dgfk.svg" alt="German Cartographic Society">
+        </a>
+    </div>
+
+    <div class="footer__links">
+        <a href="/contact">Contact</a>
+        <a href="/legal">Legal Note &amp; Privacy</a>
+        <a href="/press">Press</a>
+    </div>
+</footer>
+
+<!-- TODO: Import isotope in JS-File -->
+<script src="/assets/js/scripts.js"></script>
+{% if page.url.slice(0,11) == '/exhibition' %}
+<script src="/assets/js/exhibition.js"></script>
+{% endif %}
+</body>
+
+</html>

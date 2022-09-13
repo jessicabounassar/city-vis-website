@@ -1,0 +1,305 @@
+<main class="main" role="main">
+
+	<section class="section project">
+
+    <?php 
+    require_once('config.php');
+    $mysqli = mysqli_connect($db_server, $db_user, $db_pass, $db_database);
+
+    if (mysqli_connect_errno()) {
+        printf("Connect failed: %s\n", mysqli_connect_error());
+        exit();
+    }
+
+    $error = false;
+
+    if(isset($_GET["id"])){
+        if ($result = $mysqli->query(
+        "SELECT 
+            id, 
+            first_name,
+            last_name,
+            organization, 
+            project_year, 
+            project_title,
+            project_description,
+            project_partner,
+            legal_1,
+            legal_2,
+            legal_3
+        FROM 
+            projects
+        WHERE 
+            id = ".$_GET["id"])) {
+
+		while ($row = $result->fetch_object()){
+			if($row->legal_1 == "true" && $row->legal_2 == "true" && $row->legal_3 == "true"){
+				//Get Images
+				$images = array();
+				if ($subresult = $mysqli->query("SELECT filename FROM image_names WHERE project_id =  ".$_GET["id"]." ORDER BY id")) {
+					while ($subrow = $subresult->fetch_object()){
+						array_push($images, $subrow);
+					}
+					$subresult->close();
+				}
+				//Get Types
+				$types = array();
+				if ($subresult = $mysqli->query("SELECT value FROM types WHERE project_id =  ".$_GET["id"])) {
+					while ($subrow = $subresult->fetch_object()){
+						array_push($types, $subrow);
+					}
+					$subresult->close();
+				}
+				//Get Mediums
+				$mediums = array();
+				if ($subresult = $mysqli->query("SELECT value FROM mediums WHERE project_id =  ".$_GET["id"])) {
+					while ($subrow = $subresult->fetch_object()){
+						array_push($mediums, $subrow);
+					}
+					$subresult->close();
+				}
+				//Get Areas
+				$areas = array();
+				if ($subresult = $mysqli->query("SELECT value FROM areas WHERE project_id =  ".$_GET["id"])) {
+					while ($subrow = $subresult->fetch_object()){
+						array_push($areas, $subrow);
+					}
+					$subresult->close();
+				}
+				//Get Authors
+				$authors = array();
+				if ($subresult = $mysqli->query("SELECT name, organization FROM authors WHERE project_id =  ".$_GET["id"]." ORDER BY sort")) {
+					while ($subrow = $subresult->fetch_object()){
+						array_push($authors, $subrow);
+					}
+					$subresult->close();
+				}
+				//Get Links
+				$links = array();
+				if ($subresult = $mysqli->query("SELECT value FROM links WHERE project_id =  ".$_GET["id"])) {
+					while ($subrow = $subresult->fetch_object()){
+						array_push($links, $subrow);
+					}
+					$subresult->close();
+				}
+				//Check for PDF
+				$pdfs = array();
+				if ($subresult = $mysqli->query("SELECT name, file FROM files WHERE project_id =  ".$_GET["id"])) {
+					while ($subrow = $subresult->fetch_object()){
+						if(substr($subrow->file, -4, 4) == ".pdf"){
+							array_push($pdfs, $subrow);
+						}
+					}
+					$subresult->close();
+				}
+
+				//Videos
+				$videos = array();
+				if ($subresult = $mysqli->query("SELECT comment FROM images WHERE project_id =  ".$_GET["id"])) {
+					while ($subrow = $subresult->fetch_object()){
+						if($subrow->comment != "no" && strlen($subrow->comment)>5){
+							array_push($videos, $subrow);
+						}
+					}
+					$subresult->close();
+				}
+            ?>
+            
+            <div class="project__image">
+                <?php if(count($images) >= 1){ ?>
+                    <img src="../../assets/img/project_images/<?php echo $images[0]->filename; ?>.jpg" alt="<?php echo utf8_encode($row->project_title); ?>" />
+                <?php } ?>
+            </div>
+
+            <div class="project__description">
+                <h1 class="project__description--title">
+                    <?php echo utf8_encode($row->project_title); ?>
+                </h1>
+                <span class="project__description--year">
+                    <?php echo utf8_encode($row->project_year); ?>, <?php echo utf8_encode($row->organization); ?>
+                </span>
+
+                <div class="project__tags">
+                <?php
+                if(count($areas) > 0) {
+                ?>
+                    <span class="project__tags__row">
+                        <span class="project__tags__row--title">Area</span>
+                    <?php
+                        for($i = 0; $i < count($areas); $i++){
+                            echo '<span class="project__tags__row--tag">'.str_replace(" ", "&nbsp;", utf8_encode($areas[$i]->value)).'</span>';
+                        }
+                    ?>
+                    </span>
+                <?php
+                    }
+                ?>
+
+                <?php
+                    if(count($mediums)>0){
+                ?>
+                    <span class="project__tags__row">
+                        <span class="project__tags__row--title">Medium</span>
+                    <?php
+                        for($i = 0; $i<count($mediums); $i++){
+                            echo '<span class="project__tags__row--tag">'.str_replace(" ", "&nbsp;", utf8_encode($mediums[$i]->value)).'</span>';
+                        }
+                    ?>
+                    </span>
+                <?php
+                    }
+                ?>
+
+                <?php
+                if(count($types) > 0) {
+                ?>
+                    <span class="project__tags__row">
+                        <span class="project__tags__row--title">Type</span>
+                    <?php
+                        for($i = 0; $i<count($types); $i++){
+                            echo '<span class="project__tags__row--tag">'.str_replace(" ", "&nbsp;", utf8_encode($types[$i]->value)).'</span>';
+                        }
+                    ?>
+                    </span>
+                <?php
+                    }
+                ?>
+                </div>
+
+                <p class="project-body">
+                    <?php echo utf8_encode($row->project_description); ?>
+                </p>
+
+            <?php
+            if(count($images) >= 1) {
+                $setup = [
+                    false,
+                    [
+                        [100,0]
+                    ],
+                    [
+                        [47.5,5],[47.5,0]
+                    ],
+                    [
+                        [30,5],[30,5],[30,0]
+                    ],
+                    [
+                        [22,4],[22,4],[22,4],[22,0]
+                    ],
+                    [
+                        [30,5],[30,5],[30,0],[47.5,5],[47.5,0]
+                    ],
+                    [
+                        [30,5],[30,5],[30,0],[30,5],[30,5],[30,0]
+                    ],
+                    [
+                        [30,5],[30,5],[30,0],[47.5,5],[47.5,0],[47.5,5],[47.5,0]
+                    ],
+                    [
+                        [30,5],[30,5],[30,0],[30,5],[30,5],[30,0],[47.5,5],[47.5,0]
+                    ],
+                    [
+                        [30,5],[30,5],[30,0],[30,5],[30,5],[30,0],[30,5],[30,5],[30,0]
+                    ],
+                    [
+                        [47.5,5],[47.5,0],[30,5],[30,5],[30,0],[47.5,5],[47.5,0],[30,5],[30,5],[30,0]
+                    ],
+                    [
+                        [30,5],[30,5],[30,0],[30,5],[30,5],[30,0],[30,5],[30,5],[30,0],[47.5,5],[47.5,0]
+                    ]
+                ];
+
+                if(count($images) > 12){
+                    $setup[count($images)] = array();
+                    $threes = floor(count($images) / 3);
+                    for($i = 0; $i < $threes; $i++){
+                        array_push($setup[count($images)], [30,5],[30,5],[30,0]);
+                    }
+                    $rest = count($images) - $threes * 3;
+                    if($rest == 1){
+                        array_push($setup[count($images)], [100,0]);
+                    }else{
+                        array_push($setup[count($images)], [47.5,5],[47.5,0]);
+                    }
+                }
+                ?>
+                
+            <ul class="project__image-list">
+                <?php
+                for($i = 0; $i < count($images); $i++){
+                    echo '<li class="project__image-list__item"><a href="../../assets/img/project_images/'.$images[$i]->filename.'.jpg" data-lightbox="project" data-title="'.utf8_encode($row->project_title).'"><img src="../../assets/img/collection_thumbs/'.$images[$i]->filename.'.jpg" /></a>';
+                } ?>
+            </ul>
+            <?php
+                }
+            ?>
+            <?php
+            if(count($links)>0){
+            ?>
+                <h2>Links</h2>
+                <ul class="project__link-list">
+                    <?php
+                    for($i = 0; $i<count($links); $i++){
+                        $url = parse_url($links[$i]->value);
+                        echo '<li class="project__link-list__item"><a href="'.utf8_encode($links[$i]->value).'">'.$url["host"].'</a>';
+                    }
+                    ?>								
+                </ul>
+                <?php
+                    }
+                ?>
+
+                <h2>Authors</h2>
+                <ul class="project__author-list">
+                <li class="project__author-list__item">
+                        <span class="project__author-list__item--name">
+                            <?php echo utf8_encode($row->last_name).", ".utf8_encode($row->first_name); ?>
+                        </span>
+                        <span class="project__author-list__item--institution">
+                            <?php echo utf8_encode($row->organization); ?>
+                        </span>
+                    </li>
+                    <?php
+                    for($i = 0; $i < count($authors); $i++) :
+                        $last_name = trim(utf8_encode($row->last_name));
+                        $first_name = trim(utf8_encode($row->first_name));
+                        $name = $last_name.', '.$first_name;
+                        if(trim(utf8_encode($authors[$i]->name)) == $name || (is_numeric(strpos(utf8_encode($authors[$i]->name), $last_name)) && is_numeric(strpos(utf8_encode($authors[$i]->name), $first_name)))){
+                        }else{
+                    ?>
+                        <li class="project__author-list__item">
+                            <span class="project__author-list__item--name">
+                                <?php echo utf8_encode($authors[$i]->name); ?>
+                            </span>
+                            <span class="project__author-list__item--institution">
+                                <?php echo utf8_encode($authors[$i]->organization); ?>
+                            </span>
+                        </li>
+                    <?php
+                        }
+                    endfor;
+                    ?>								
+                </ul>
+	    </div>
+
+        <?php } else{
+            $error = true;
+        }
+            }
+
+            $result->close();
+        } else{
+            $error = true;
+        }
+        } else{
+            $error = true;
+        }
+
+        if($error){
+            echo 'We are sorry, but there is no public project with this ID.';
+        }
+
+        ?>
+	</section>
+
+</main>
