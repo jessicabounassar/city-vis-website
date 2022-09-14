@@ -127,7 +127,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
 <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Von der Vergangenheit lernen, die Gegenwart verstehen <br />und Visionen für eine bessere Zukunft.</h3>
 
 <p>
-Unsere städtischen Strukturen, ob gebaut oder sozial, sind eng verwoben mit digitalen Infrastrukturen. Daten sind essentielle Bestandteile moderner Systeme, von der Verkehrslenkung bis hin zu politischen Entscheidungen. Diese neue Ebene unserer Städte ist meist unsichtbar. Durch die CityVis Platform versuchen wir beispielhafte Arbeiten aus aller Welt für die Sichtbarmachung dieser neuen Strukturen und Informationen zu sammeln und dadurch Akteuer*innen zu vernetzen.
+Unsere städtischen Strukturen, ob gebaut oder sozial, sind eng verwoben mit digitalen Infrastrukturen. Daten sind essentielle Bestandteile moderner Systeme, von der Verkehrslenkung bis hin zu politischen Entscheidungen. Diese neue Ebene unserer Städte ist meist unsichtbar. Durch die CityVis Plattform versuchen wir beispielhafte Arbeiten aus aller Welt für die Sichtbarmachung dieser neuen Strukturen und Informationen zu sammeln und dadurch Akteur*innen zu vernetzen.
 </p>
 <h3>Ausstellung</h3>
 <p>
