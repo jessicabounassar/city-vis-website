@@ -124,21 +124,33 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
 <a class="exhibition-language-link" href="/exhibitions/2022/symposium_en/">English&nbsp;&raquo;</a>
 
 <section class="section section-info section-text">
-<h4 style="font-size:20px; font-weight:bold;">Symposium (in englischer Sprache)</h4>
-<h3 style="width: 100%;">Beyond the Smart City – <br />Reflections on the digital City</h3>
+<h4 style="font-size:20px; font-weight:bold;">Symposium (hybrid, in englischer Sprache)</h4>
+<h3 style="width: 100%; margin-bottom:10px; padding-bottom:0;">Beyond the Smart City – <br />Reflections on the digital City</h3>
+<h4 style="font-size:20px; font-weight:bold; margin-bottom:40px; padding-top:0;">03.11.2022, 18 bis 20 Uhr, Wissenschaftsetage Potsdam</h4>
 <p>
-Das Symposium ist die Eröffnung der CityVis 2022 <a href="/exhibitions/2022/de/">Ausstellung</a>.
+Der Diskurs um die Stadt der Zukunft ist häufig dominiert von technologischen Visionen. Die Smart City: ein urbaner Raum vernetzter Systeme, welche die Prozesse der Stadt optimieren. Das Ziel der CityVis Initiative war es von jeher, die unsichtbaren Informationen und Systeme unserer Städte sichtbar zu machen. Mit diesem Symposium wollen wir noch einen Schritt weiter gehen und den Status Quo unserer (digitalen) Städte kritisch hinterfragen. Wie können wir die Städte der Zukunft inklusiver konzipieren (fem_arc)? Wie können Daten und Informationen Transparenz fördern und die Zivilgesellschaft bemächtigen Geschehnisse kritisch zu hinterfragen (Forensic Architecture)? Wie lässt sich das Wechselspiel zwischen digitaler Innovation und persönlichkeitsrechten reflektiert navigieren (Tactical Tech)?
+</p>
+<p>
+Das Symposium ist gleichzeitig die Eröffnung der CityVis 2022 <a href="/exhibitions/2022/de/">Ausstellung</a>.
 </p>
 <p>
 <!--Thematic Introduction.-->
 </p>
 <h3>Programm</h3>
-<p>
-Die Sprecher*innen und das Programm werden in Kürze bekanntgegeben.
-</p>
+<ul class="workshop-section__focus-list" style="font-size:30px;">
+<li class="workshop-section__focus-list-item" style="padding-right:0; padding-bottom:30px;">
+<span class="workshop-section__focus-list-item--headline">Lara Stöhlmacher (<a href="http://fem-arc.net">fem_arc, Berlin</a>)</span>
+</li>
+<li class="workshop-section__focus-list-item" style="padding-right:0; padding-bottom:30px;">
+<span class="workshop-section__focus-list-item--headline">Omar Ferwati (<a href="https://forensic-architecture.org/about/team/member/omar-ferwati">Forensic Architecture, London</a>)</span>
+</li>
+<li class="workshop-section__focus-list-item" style="padding-right:0;">
+<span class="workshop-section__focus-list-item--headline">Marek Tuszynski (<a href="https://tacticaltech.org/marek/">Tactical Tech, Berlin</a>)</span>
+</li>
+</ul>
 <h3>Anmeldung</h3>
 <p>
-Das Symposium und die Ankündigungen werden hybrid und in englischer Sprache abgehalten. Sie können sich jetzt schon für den Live-Stream registrieren. Wir werden kurz vor der Veranstaltung eine Einladung für das vor-Ort Event verschicken, soweit die aktuellen COVID-Bestimmungen bekannt sind.
+Das Symposium und die Ankündigungen werden hybrid und in englischer Sprache abgehalten. Sie können sich jetzt schon für den Live-Stream registrieren. Lassen Sie uns im Formular wissen, ob Sie persönlich teilnehmen möchten. Wir geben Ihnen möglichst zeitnah eine Zusage.
 </p>
 <p style="text-align:center; padding-bottom: 50px;">
 <a class="upcoming-link" style="color:white;" href="https://forms.office.com/Pages/ResponsePage.aspx?id=ypiwiSJH3US1d_dWhR0cuAHiBGyHFNVLlM-aQZ5wG2xUOEpPT1NFTEpWWEY0U1JDTFpaM0RYS1FPSC4u">Jetzt anmelden</a>

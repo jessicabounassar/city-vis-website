@@ -126,17 +126,29 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
 
 <section class="section section-info section-text">
 <h4 style="font-size:20px; font-weight:bold;">Symposium (in englisch)</h4>
-<h3 style="width: 100%;">Beyond the Smart City – <br />Reflections on the digital City</h3>
+<h3 style="width: 100%; margin-bottom:10px; padding-bottom:0;">Beyond the Smart City – <br />Reflections on the digital City</h3>
+<h4 style="font-size:20px; font-weight:bold; margin-bottom:40px; padding-top:0;">03.11.2022, 6 to 8 pm, Wissenschaftsetage Potsdam</h4>
+<p>
+The discourse on the city of the future is often dominated by technological visions. The Smart City: an urban space of networked systems that optimise the city's processes. The goal of the CityVis initiative has always been to make the invisible information and systems of our cities visible. With this symposium, we want to go one step further and critically question the status quo of our (digital) cities. How can we design the cities of the future to be more inclusive (fem_arc)? How can data and information promote transparency and empower civil society to critically question events (Forensic Architecture)? How can we reflectively navigate the interplay between digital innovation and privacy rights (Tactical Tech)?
+</p>
 <p>
 The symposium is the opening of the CityVis 2022 <a href="/exhibitions/2202/en/">exhibition</a>.
 </p>
 <p>
 <!-- short introduction -->
 </p>
-<h3>Program</h3>
-<p>
-The speakers and program will be announced shortly.
-</p>
+<h3>Programm</h3>
+<ul class="workshop-section__focus-list" style="font-size:30px;">
+<li class="workshop-section__focus-list-item" style="padding-right:0; padding-bottom:30px;">
+<span class="workshop-section__focus-list-item--headline">Lara Stöhlmacher (<a href="http://fem-arc.net">fem_arc, Berlin</a>)</span>
+</li>
+<li class="workshop-section__focus-list-item" style="padding-right:0; padding-bottom:30px;">
+<span class="workshop-section__focus-list-item--headline">Omar Ferwati (<a href="https://forensic-architecture.org/about/team/member/omar-ferwati">Forensic Architecture, London</a>)</span>
+</li>
+<li class="workshop-section__focus-list-item" style="padding-right:0;">
+<span class="workshop-section__focus-list-item--headline">Marek Tuszynski (<a href="https://tacticaltech.org/marek/">Tactical Tech, Berlin</a>)</span>
+</li>
+</ul>
 <h3>Registration</h3>
 <p>
 The symposium and announcements will be held hybrid. You can already register for the live stream. We will send out an invitation for the in-person event in late october to all participants, when we know about the COVID regulations at the time.
