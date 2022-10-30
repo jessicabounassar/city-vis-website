@@ -132,7 +132,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
 The discourse on the city of the future is often dominated by technological visions. The Smart City: an urban space of networked systems that optimise the city's processes. The goal of the CityVis initiative has always been to make the invisible information and systems of our cities visible. With this symposium, we want to go one step further and critically question the status quo of our (digital) cities. How can we design the cities of the future to be more inclusive (fem_arc)? How can data and information promote transparency and empower civil society to critically question events (Forensic Architecture)? How can we reflectively navigate the interplay between digital innovation and privacy rights (Tactical Tech)?
 </p>
 <p>
-The symposium is the opening of the CityVis 2022 <a href="/exhibitions/2202/en/">exhibition</a>.
+The symposium is the opening of the CityVis 2022 <a href="/exhibitions/2022/en/">exhibition</a>.
 </p>
 <p>
 <!-- short introduction -->
