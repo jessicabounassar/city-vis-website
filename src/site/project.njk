@@ -7,7 +7,7 @@ pagination:
 permalink: "collection/project/{{ project.short_title | slugify }}/"
 ---
 
-<div class="project__image" style="background-image:url(/assets/img/project_images/{{ project.imageNames[0] }});"></div>
+<div class="project__image" style="background-image:url(/assets/img/project_images/{{ project.imageNames[0] | replace(".jpg", "@2x.jpg") }});"></div>
 <section class="section project">
 
 <div class="project__description">

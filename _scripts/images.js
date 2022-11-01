@@ -16,9 +16,20 @@ for (let f = 0; f < files.length; f += 1) {
       fit: 'cover'
     })
     .jpeg({
-      quality: 65
+      quality: 90
     })
     .toFile(output_thumb + '/' + files[f].split('.')[0] + '.jpg');
+  
+  await sharp(path + '/' + files[f])
+    .resize({
+      width: 600,
+      height: 350,
+      fit: 'cover'
+    })
+    .jpeg({
+      quality: 90
+    })
+    .toFile(output_thumb + '/' + files[f].split('.')[0] + '@2x.jpg');
 
   // full
   await sharp(path + '/' + files[f])
@@ -29,9 +40,21 @@ for (let f = 0; f < files.length; f += 1) {
       background: {r:255, g: 255, b: 255, alpha: 1}
     })
     .jpeg({
-      quality: 65
+      quality: 90
     })
     .toFile(output_full + '/' + files[f].split('.')[0] + '.jpg');
+  
+  await sharp(path + '/' + files[f])
+    .resize({
+      width: 2400,
+      height: 1600,
+      fit: 'inside', // contain
+      background: {r:255, g: 255, b: 255, alpha: 1}
+    })
+    .jpeg({
+      quality: 90
+    })
+    .toFile(output_full + '/' + files[f].split('.')[0] + '@2x.jpg');
 
   console.log(files.length, f);
 }

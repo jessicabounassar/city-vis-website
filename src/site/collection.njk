@@ -44,7 +44,7 @@ eleventyNavigation:
     <div class="project-tiles__tile{%for t in project.types%} f_t_{{t}}{%endfor%}{%for a in project.areas%} f_a_{{a}}{%endfor%}{%for m in project.mediums%} f_m_{{m}}{%endfor%}">
       <a href="/collection/project/{{ project.short_title | slugify }}">
         <div class="project-tiles__tile-image">
-          <img width="300" height="175" src="/assets/img/collection_thumbs/{{project.imageNames[0]}}" loading="lazy" alt="{{ project.short_title }}" />
+          <img width="300" height="175" src="/assets/img/collection_thumbs/{{project.imageNames[0] | replace(".jpg", "@2x.jpg")}}" loading="lazy" alt="{{ project.short_title }}" />
         </div>
         <div class="project-tiles__tile-content">
           <div class="project-tiles__tile-title">
