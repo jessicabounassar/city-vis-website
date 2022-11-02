@@ -151,10 +151,12 @@ The symposium is the opening of the CityVis 2022 <a href="/exhibitions/2022/en/"
 </ul>
 <h3>Registration</h3>
 <p>
-The symposium and announcements will be held hybrid. You can already register for the live stream. We will send out an invitation for the in-person event in late october to all participants, when we know about the COVID regulations at the time.
+The symposium and announcements will be held hybrid. We are fully booked for in-person participation. But you can still participate in the online meeting:
 </p>
 <p style="text-align:center; padding-bottom: 50px;">
-<a class="upcoming-link" style="color:white;" href="https://forms.office.com/Pages/ResponsePage.aspx?id=ypiwiSJH3US1d_dWhR0cuAHiBGyHFNVLlM-aQZ5wG2xURFpSWFRYQzg3MzFOSzhPSzZIVVZVMUVUWS4u">Event Registration</a>
+<a href="https://fh-potsdam.zoom.us/j/61941430365?pwd=UVg3L2U2L3B0eGJRemx5MCt4c1ZEdz09">Live via Zoom</a><br />
+Meeting ID: 619 4143 0365<br />
+Passcode: 20336749
 </p>
 
 </section>

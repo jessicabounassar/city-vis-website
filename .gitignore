@@ -2,6 +2,8 @@ _legacy
 dist
 _tmpImages
 _images
+_videoFrames
+_scripts/*.mp4
 
 ## Node.js
 lib-cov

@@ -150,10 +150,12 @@ Das Symposium ist gleichzeitig die Eröffnung der CityVis 2022 <a href="/exhibit
 </ul>
 <h3>Anmeldung</h3>
 <p>
-Das Symposium und die Ankündigungen werden hybrid und in englischer Sprache abgehalten. Sie können sich jetzt schon für den Live-Stream registrieren. Lassen Sie uns im Formular wissen, ob Sie persönlich teilnehmen möchten. Wir geben Ihnen möglichst zeitnah eine Zusage.
+Das Symposium und die Ankündigungen werden hybrid und in englischer Sprache abgehalten. Es gibt leider keine freien Plätze mehr für die Vor-Ort teilnahme. Sie können aber virtuell am Symposium teilnehmen:
 </p>
 <p style="text-align:center; padding-bottom: 50px;">
-<a class="upcoming-link" style="color:white;" href="https://forms.office.com/Pages/ResponsePage.aspx?id=ypiwiSJH3US1d_dWhR0cuAHiBGyHFNVLlM-aQZ5wG2xUOEpPT1NFTEpWWEY0U1JDTFpaM0RYS1FPSC4u">Jetzt anmelden</a>
+<a href="https://fh-potsdam.zoom.us/j/61941430365?pwd=UVg3L2U2L3B0eGJRemx5MCt4c1ZEdz09">Live via Zoom</a><br />
+Meeting ID: 619 4143 0365<br />
+Passcode: 20336749
 </p>
 
 

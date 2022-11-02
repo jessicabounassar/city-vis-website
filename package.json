@@ -29,9 +29,12 @@
   "devDependencies": {
     "cross-env": "5.2.0",
     "fast-xml-parser": "^4.0.1",
+    "fluent-ffmpeg": "^2.1.2",
     "http-server": "^14.1.0",
+    "puppeteer": "^19.2.0",
     "sharp": "^0.30.3",
-    "slugify": "^1.6.5"
+    "slugify": "^1.6.5",
+    "videoshow": "^0.1.12"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
