@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "cross-env": "5.2.0",
+    "fast-csv": "^4.3.6",
     "fast-xml-parser": "^4.0.1",
     "fluent-ffmpeg": "^2.1.2",
     "http-server": "^14.1.0",
@@ -50,7 +51,7 @@
     "postcss-mixins": "^9.0.2",
     "postcss-normalize": "^10.0.1",
     "postcss-preset-env": "^7.4.3",
-    "precss": "^4.0.0",
+    "precss": "^3.1.0",
     "uglify-js": "^3.14.5"
   }
 }

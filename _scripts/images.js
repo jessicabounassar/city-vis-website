@@ -1,10 +1,20 @@
 const sharp = require('sharp');
 const fs = require('fs');
+const newProjects = require('./newProjects.json');
 
-const path = '../_images';
+const validImages = [];
+newProjects.forEach(p => {
+  p.imageNames.forEach(i => {
+    validImages.push(i.split('.')[0]);
+  });
+});
+
+const path = '../_newImages';
 const output_full = '../src/site/assets/img/project_images';
 const output_thumb = '../src/site/assets/img/collection_thumbs';
-const files = fs.readdirSync(path);
+const files = fs.readdirSync(path)
+  .filter(f => f.indexOf('.csv') === -1)
+  .filter(f => validImages.includes(f.split('.')[0]));
 
 (async () => {
 for (let f = 0; f < files.length; f += 1) {

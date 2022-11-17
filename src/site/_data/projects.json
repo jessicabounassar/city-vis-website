@@ -1,5 +1,822 @@
 [
   {
+    "created": "5/23/2022, 2:06:45 PM",
+    "id": "20222",
+    "first_name": "fabian",
+    "last_name": "rios",
+    "organization": "",
+    "project_title": "Foodiestratum What is the price of food every city prefers? Purchasing parity distribution through dietary preferences",
+    "project_year": "2019",
+    "project_description": "The project explores similarities and distributions of food photography by assembling 1000 photos, for each city observed, into rich media visualizations. This reveals interesting patterns.  Foodiestratum investigates the typical foodie pic using theoretic, artistic and quantitative methods, the project search similarities and distributions of this kind of photographies by associating rich media visualisations (Image-plots) build by assembling 1000 photos for each city to reveal interesting patterns. This theoretical essay will discuss this particular behaviour, the influence it exerts in mobile hardware and software industry and summarise and analyse previous created project under a similar scope also it’ll clarify the methods and the dataset and come to and end of conclusions and possible future research to be done.",
+    "project_partner": "Master thesis at Rhine-Waal University of Applied Sciences",
+    "winner": null,
+    "types": [
+      1
+    ],
+    "areas": [
+      3
+    ],
+    "mediums": [
+      1
+    ],
+    "authors": [
+      {
+        "name": "Fabian Ríos",
+        "organization": "",
+        "sort": 0
+      },
+      {
+        "name": "Prof. Michael Pichler Thesis Supervisor",
+        "organization": "",
+        "sort": 1
+      },
+      {
+        "name": "Herr Prof. Dr.-Ing. Ido Iurgel Second Thesis Supervisor",
+        "organization": "",
+        "sort": 2
+      }
+    ],
+    "imageNames": [
+      "bf6e5df9-da98-11ec-bc6b-4201c0a80002.jpg",
+      "bf94184d-da98-11ec-bc6b-4201c0a80002.jpg",
+      "bfac52a6-da98-11ec-bc6b-4201c0a80002.jpg",
+      "e26173f3-da98-11ec-bc6b-4201c0a80002.jpg"
+    ],
+    "links": [
+      "http://foodiestratum.com/"
+    ],
+    "short_title": "Foodiestratum"
+  },
+  {
+    "created": "7/12/2022, 12:21:58 PM",
+    "id": "20223",
+    "first_name": "Matteo",
+    "last_name": "Moretti",
+    "organization": "Sheldon.studio",
+    "project_title": "Glocal Climate Change",
+    "project_year": "2021",
+    "project_description": "Glocal Climate Change is a project that translates the Copernicus open data into an immersive visual narration to make climate data accessible to a broader audience. It develops upon a never seen hyper granular map that returns the climate of more than 100.000 EU municipalities in a single view. Such detail allows visitors to search for their places, the ones they care about, shortening the distance between the EU citizens and the global phenomenon. Then, a scroll-based page narrates the chosen municipality's climate trend. It connects the single place with the surroundings and then the connected provinces and region connecting again local climate with a broader scope. Finally, more than 100.000 informative data thumbnails were  generated, one for each place, turning visitors in little digital activists toward a greater climate awareness.",
+    "project_partner": "OBC Transeuropa Sheldon.studio ",
+    "winner": null,
+    "types": [
+      2
+    ],
+    "areas": [
+      19,
+      37
+    ],
+    "mediums": [
+      1,
+      28
+    ],
+    "authors": [
+      {
+        "name": "OBC Transeuropa Sheldon.studio ",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "9ca7f631-01d4-11ed-9996-4201c0a80002.jpg",
+      "9d45cec9-01d4-11ed-9996-4201c0a80002.jpg",
+      "9dac4341-01d4-11ed-9996-4201c0a80002.jpg",
+      "9e6b1f36-01d4-11ed-9996-4201c0a80002.jpg",
+      "9e88e13a-01d4-11ed-9996-4201c0a80002.jpg"
+    ],
+    "links": [
+      "http://glocalclimatechange.eu"
+    ],
+    "short_title": "40 years of climate in EU"
+  },
+  {
+    "created": "7/18/2022, 12:41:07 PM",
+    "id": "20224",
+    "first_name": "Jan",
+    "last_name": "Schelhaas",
+    "organization": "IT University of Copenhagen (ITU)",
+    "project_title": "Measuring & Visualizing Transit Accessibility in Denmark",
+    "project_year": "2022",
+    "project_description": "Based on timetable data, we created a metric that quantifies transit accessibility across Denmark. To set this project apart from already existing ones, we added a fourth dimension to accessibility scoring - time. We built a powerful data processing engine to calculate scores at a high resolution and created an interactive visualization for it. We find significant differences in transit accessibility between the two largest cities in Denmark, especially at Night. See the result here: https://potatotvnet.github.io/transit/",
+    "project_partner": "",
+    "winner": null,
+    "types": [
+      15
+    ],
+    "areas": [
+      1,
+      2,
+      19
+    ],
+    "mediums": [
+      1
+    ],
+    "authors": [
+      {
+        "name": "Jan Leonard Schelhaas, ITU Jacob Aarup Dalsgaard, ITU",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "47b6f5dd-068d-11ed-9996-4201c0a80002.jpg",
+      "49e11e38-068d-11ed-9996-4201c0a80002.jpg"
+    ],
+    "links": [
+      "https://potatotvnet.github.io/transit/"
+    ],
+    "short_title": "Transit Accessibility in Denmark"
+  },
+  {
+    "created": "7/22/2022, 1:14:04 PM",
+    "id": "20225",
+    "first_name": "Alsino",
+    "last_name": "Skowronnek",
+    "organization": "n.a.",
+    "project_title": "Visitmyorbit - Exploring Artists’ Networks",
+    "project_year": "2021",
+    "project_description": "Visitmyorbit is a portal into the life of contemporary artists working in various fields. The site shows artists' motivations, studio locations as well as 773 connections among them – creating an inside view into the networks of 150 artists presented on visitmytent.com. Highlighting individual artists points out their relation and closeness to other artists – socially in the network and physically on the map – giving a glimpse into the different artists' milieus – predominantly in Berlin. Additionally you can deep dive into individual studio visits and interviews. All data was collected manually and evaluated in a constant dialogue with the artists over a period of more than one year. visitmyorbit is a visualization by Stephanie Neumann and Alsino Skowronnek crafted in Berlin, 2021.",
+    "project_partner": "",
+    "winner": null,
+    "types": [
+      22
+    ],
+    "areas": [
+      3,
+      2
+    ],
+    "mediums": [
+      1
+    ],
+    "authors": [
+      {
+        "name": "Alsino Skowronnek, Stephanie Neumann",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "a1a105e8-09b7-11ed-9996-4201c0a80002.jpg",
+      "a1ab6ecc-09b7-11ed-9996-4201c0a80002.jpg",
+      "a1ae4b20-09b7-11ed-9996-4201c0a80002.jpg"
+    ],
+    "links": [
+      "https://visitmyorbit.vercel.app/"
+    ],
+    "short_title": "Visitmyorbit - Exploring Artists’ Networks"
+  },
+  {
+    "created": "7/27/2022, 8:20:16 AM",
+    "id": "20226",
+    "first_name": "Erdem",
+    "last_name": "Yörük",
+    "organization": "Koç University",
+    "project_title": "Global Contentious Politics Dataset",
+    "project_year": "2022",
+    "project_description": "Global Contentious Politics Dataset (GLOCON) is the first comparative protest event database for the Global South, focusing on Argentina, Brazil, India, Turkey, and South Africa. Applying artificial intelligence methods to local news sources, GLOCON provides and visualizes a number of contentious political level characteristics: event type, (e.g strikes, rallies, boycotts, protests, riots, and demonstrations, i.e. the “repertoire of contention”), participant type (student, worker, militant, etc), organizer type (union, political party, armed organization, NGO etc), ethnicity, urban/rural. GLOCON is one of the major results of a broader project, called Emerging Welfare (EMW). Funded by European Research Council (ERC) Starting Grant, EMW has been led by Assoc. Prof. Dr. Erdem Yoruk, from Koc University, since January 2017.Here, we employ advanced computing techniques such as artificial intelligence, natural language processing, and machine learning in order to extract protest data from online news sources. The GLOCON team has developed fully automated tools for document classification, sentence classification, and detailed protest event information extraction that perform in a multi-source, multi-context protest event setting with consistent performances of recall and precision for each country context. GLOCON's visualization allows the user to observe the distribution of detailed event characteristics over time and space.   ",
+    "project_partner": "",
+    "winner": null,
+    "types": [
+      1
+    ],
+    "areas": [
+      1,
+      4
+    ],
+    "mediums": [
+      1
+    ],
+    "authors": [
+      {
+        "name": "Erdem Yörük, Koç University Ali Hürriyetoğlu, Koç University Moutasem Abdüllatif, Koç University Damla Çay, Koç University Deniz Yuret, Koç University Çağrı Yoltar, Koç University Burak Gürel, Koç University Fırat Duruşan, Koç University Osman Mutlu, Koç University Arda Akdemir, Koç University Aline Villavicencio,",
+        "organization": "",
+        "sort": 0
+      },
+      {
+        "name": "Arzucan Özgür, Boğaziçi University Mehmet Fuat Kına, Koç University Ali Safaya, Koç University Enes Sarı, Koç University Sinemis Temel, Koç University Berfu Büyüköz, Boğaziçi University",
+        "organization": "",
+        "sort": 1
+      }
+    ],
+    "imageNames": [
+      "7f2844bf-0d79-11ed-9996-4201c0a80002.jpg",
+      "6e96f727-0d7b-11ed-9996-4201c0a80002.jpg",
+      "b46dbb30-0d7b-11ed-9996-4201c0a80002.jpg"
+    ],
+    "links": [
+      "https://glocon.ku.edu.tr/ https://dashboard-glocon.ku.edu.tr/world-view https://youtu.be/NLHUjYXUSu0 emw.ku.edu.tr"
+    ],
+    "short_title": "GLOCON"
+  },
+  {
+    "created": "7/27/2022, 1:05:16 PM",
+    "id": "20227",
+    "first_name": "Anastasia ",
+    "last_name": "Jerdeva",
+    "organization": "Fachhochschule Potsdam",
+    "project_title": " 1.5°C",
+    "project_year": "2022",
+    "project_description": "With my design I act in the sense of the Smart City ideals. My project intends to empower and motivate the urban population to act by providing qualitative data sets in a descriptive and accessible way about sustainability in public space.  The global consequences of climate change are increasing year by year. We are running out of time and yet global agreements and measures seem to be making only slow progress. The 1.5°C climate target set in the Paris Climate Agreement is being postponed further and further. And yet humanity depends on not exceeding this limit. The IPCC Special Report on 1.5°C Global Warming articulates the urgent need to take the limit seriously: \"The impacts of 1.5°C global warming on nature and humanity will be higher than they already are today, but significantly less than they would be at 2°C.\" Climate change is an issue that is relevant to all of us, as we share responsibility and our basis of life is threatened.  I apply data visualisations that are showing these consequences with semi permanent spray chalk to table-tennis tables in public city spaces. A QR code refers to the data basis and explains in more detail how the data is derived. In parks, a cross-section of society can be found, as they are democratic places available to all citizens for recreation. Exactly therefore I consider this place very suitable. As a recurring element in the city with standardized masses I have the possibility to reproduce my motives.",
+    "project_partner": "Fachhochschule Potsdam",
+    "winner": null,
+    "types": [
+      15
+    ],
+    "areas": [
+      3,
+      19,
+      37
+    ],
+    "mediums": [
+      1
+    ],
+    "authors": [
+      {
+        "name": "Anastasia Jerdeva",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "23ed8fde-0da4-11ed-9996-4201c0a80002.jpg",
+      "29d6a955-0da4-11ed-9996-4201c0a80002.jpg",
+      "2aa1e307-0da4-11ed-9996-4201c0a80002.jpg",
+      "2afe5802-0da4-11ed-9996-4201c0a80002.jpg",
+      "2b59931a-0da4-11ed-9996-4201c0a80002.jpg"
+    ],
+    "links": [
+      ""
+    ],
+    "short_title": "1.5°C"
+  },
+  {
+    "created": "7/27/2022, 1:38:58 PM",
+    "id": "20228",
+    "first_name": "Tilmann",
+    "last_name": "Finner",
+    "organization": "",
+    "project_title": "a town for all – Alle in die Stadt!",
+    "project_year": "2021",
+    "project_description": "For a long time, our cities were conceived almost exclusively as spaces for humans and their lifestyles.  But that's over now. In order to make the city friendlier and more inclusive for all species, alternative city concepts that truly offer living space for all can be developed on an experimental basis. In the game, all players work together to build a city that corresponds to their imagination using various structural and natural building blocks. Thereon species cards are assigned, which are now to be represented with the help of additional natural elements. The cards contain information about the needs of the species, for example regarding habitat and food. Since the species used do not necessarily always harmonize with each other, conflicts can arise for which solutions must be sought in discourse. After the players decide that the city is finished, a small evaluation round by means of a recorded discussion follows. Additionally the board is photographed. This creates an accessible, qualitative data collection which is documented on the website.",
+    "project_partner": "University of Applied Sciences Potsdam Research Project \"Urbane Xtopien – Freiräume der Zukunft\"",
+    "winner": null,
+    "types": [
+      15
+    ],
+    "areas": [
+      6,
+      2,
+      37
+    ],
+    "mediums": [
+      6
+    ],
+    "authors": [
+      {
+        "name": "Tilmann Finner, Student at FHP Silas Wolf, Student at FHP",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "8dd06824-0d98-11ed-9996-4201c0a80002.jpg",
+      "8dddf060-0d98-11ed-9996-4201c0a80002.jpg",
+      "8dfb0e35-0d98-11ed-9996-4201c0a80002.jpg",
+      "b61c908b-0d98-11ed-9996-4201c0a80002.jpg",
+      "b8f90afb-0d98-11ed-9996-4201c0a80002.jpg"
+    ],
+    "links": [
+      "dasendederdominanz.de/alleindiestadt.html"
+    ],
+    "short_title": "a town for all"
+  },
+  {
+    "created": "7/29/2022, 9:37:03 AM",
+    "id": "20229",
+    "first_name": "Martin",
+    "last_name": "Niggemann",
+    "organization": "HafenCity Universität Hamburg, Digital City Science",
+    "project_title": "LIG-Finder: an interactive and personalized web-GIS application for multi-criteria land parcel exploration, analysis and visualization   ",
+    "project_year": "2022",
+    "project_description": "In a research cooperation between The Digital City Science (DCS) group of HafenCity University Hamburg (HCU) and the Hamburg State Agency of Real Estate and Property Management (LIG), a multi-criteria, interactive, and personalized web-GIS application was developed that facilitates the targeted identification of land parcels for real estate development, and supports related decision-making processes by analyzing inherent features of land properties,  using open-source geospatial tools and functionalities. It also provides interactive visual exploration tools in form of 2D and 3D cartographic styles by using webGL capabilities.",
+    "project_partner": "Landesbetrieb Immobilienmanagement und Grundvermögen (LIG) Hamburg",
+    "winner": null,
+    "types": [
+      1
+    ],
+    "areas": [
+      6,
+      38,
+      2
+    ],
+    "mediums": [
+      1
+    ],
+    "authors": [
+      {
+        "name": "Qasem Safariallahkheili, Digital City Science, HCU Hamburg (qasem.safari@hcu-hamburg.de) Juiwen (Ariel) Chang, Digital City Science, HCU Hamburg (juiwen.chang@hcu-hamburg.de) Martin Niggemann, Digital City Science, HCU Hamburg (martin.niggemann@hcu-hamburg.de) ",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "b68d2135-0e83-11ed-9f63-4201c0a80002.jpg",
+      "b6b0910d-0e83-11ed-9f63-4201c0a80002.jpg"
+    ],
+    "links": [
+      "https://ligfinder.digitalcityscience.rocks/",
+      "https://github.com/digitalcityscience/ligfinder_refactor",
+      "https://ariel505.github.io/landing_page/"
+    ],
+    "short_title": "LIG-Finder"
+  },
+  {
+    "created": "7/29/2022, 12:31:35 PM",
+    "id": "202210",
+    "first_name": "Caroline",
+    "last_name": "Goulard",
+    "organization": "DATAVEYES",
+    "project_title": "Visualising the impact of new mobility scenarios - The Grand Paris public transport network case study",
+    "project_year": "2022",
+    "project_description": "Data about mobility solutions is increasingly open, but it remains difficult to use unless you’re a data expert. The Modality tool transforms this data into interactive maps and allows everyone to understand how transportation affects daily life.   In this case study, the Modality tool is used to compare the public transport netwok in 2021 vs in 2030 in the Paris area. It shows how the new lines of the Grand Paris Express will improve access to the area for nearly 5 million inhabitants. ",
+    "project_partner": "",
+    "winner": null,
+    "types": [
+      1
+    ],
+    "areas": [
+      1,
+      6,
+      2,
+      19
+    ],
+    "mediums": [
+      1
+    ],
+    "authors": [
+      {
+        "name": "Caroline Goulard, Dataveyes Léo Gourven, Dataveyes Nicolas Forestier, Dataveyes",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "2e938c9c-0f31-11ed-9f63-4201c0a80002.jpg",
+      "385d734c-0f31-11ed-9f63-4201c0a80002.jpg",
+      "418772c5-0f31-11ed-9f63-4201c0a80002.jpg",
+      "45f2f204-0f31-11ed-9f63-4201c0a80002.jpg",
+      "4a59e07f-0f31-11ed-9f63-4201c0a80002.jpg",
+      "5889354c-0f31-11ed-9f63-4201c0a80002.jpg"
+    ],
+    "links": [
+      "https://demo.with-modality.com/",
+      "https://with-modality.com/",
+      "https://vimeo.com/showcase/modality-bordeaux"
+    ],
+    "short_title": "Visualising the impact of new mobility scenarios"
+  },
+  {
+    "created": "7/29/2022, 12:51:33 PM",
+    "id": "202211",
+    "first_name": "Michael",
+    "last_name": "Szell",
+    "organization": "IT University of Copenhagen",
+    "project_title": "GrowBike.Net",
+    "project_year": "2021",
+    "project_description": "GrowBike.Net lets you explore interactively how to grow bicycle networks from scratch in 62 cities, with different growth algorithms developed in a research project. They aim to create a cohesive, city-spanning bicycle network - something that every modern city should have. Studying these synthetic networks informs us about the geometric limitations of urban bicycle network growth and can lead to better designed bicycle infrastructure. GrowBike.Net also allows to compare the simulated networks with existing bicycle networks. Various statistics of network metrics provide a quantitative insight into the growth processes. A download page provides over thousand images and videos. GrowBike.Net is built with Mapbox GL JS and React. It was developed at ITU Copenhagen as part of a Master Thesis.",
+    "project_partner": "",
+    "winner": null,
+    "types": [
+      1
+    ],
+    "areas": [
+      1,
+      6,
+      2,
+      19
+    ],
+    "mediums": [
+      1,
+      23
+    ],
+    "authors": [
+      {
+        "name": "Morten Lynghede, IT University of Copenhagen Cecilia Laura Kolding Andersen, IT University of Copenhagen Michael Szell, IT University of Copenhagen",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "35c8bff4-0f34-11ed-9f63-4201c0a80002.jpg"
+    ],
+    "links": [
+      "growbike.net"
+    ],
+    "short_title": "GrowBike.Net"
+  },
+  {
+    "created": "7/29/2022, 1:18:33 PM",
+    "id": "202212",
+    "first_name": "Ella",
+    "last_name": "Eisemann",
+    "organization": "University of Applied Sciences Potsdam",
+    "project_title": "Nahes Grün / Fernes Grün (Near Green / Far Green)",
+    "project_year": "2021",
+    "project_description": "Nahes Grün / Fernes Grün visualizes the distribution and reachability of green spaces in Berlin along mode and time.  Berlin is often described as a particularly green capital, but not all Berliners are able to benefit equally from the city's green spaces. This interactive map renders the differences in the distribution and accessibility of Berlin's urban green spaces visible and explorable.  This project was developed within the course \"Mapping Cities - Making Cities\" with Prof. Dr Marian Dörk in the winter semester 2020/2021 at the University of Applied Sciences Potsdam.",
+    "project_partner": "",
+    "winner": null,
+    "types": [
+      15
+    ],
+    "areas": [
+      1,
+      2,
+      37
+    ],
+    "mediums": [
+      1
+    ],
+    "authors": [
+      {
+        "name": "Ella Eisemann, University of Applied Sciences Potsdam Ester Scheck, University of Applied Sciences Potsdam Henning Oskamp, University of Applied Sciences Potsdam",
+        "organization": "",
+        "sort": 0
+      },
+      {
+        "name": "Jona Pomerance, University of Applied Sciences Potsdam ",
+        "organization": "",
+        "sort": 1
+      }
+    ],
+    "imageNames": [
+      "46ed1a9b-0f38-11ed-9f63-4201c0a80002.jpg",
+      "483a4194-0f38-11ed-9f63-4201c0a80002.jpg",
+      "49212465-0f38-11ed-9f63-4201c0a80002.jpg",
+      "49f052eb-0f38-11ed-9f63-4201c0a80002.jpg",
+      "4a2799dd-0f38-11ed-9f63-4201c0a80002.jpg",
+      "513bda83-0f38-11ed-9f63-4201c0a80002.jpg"
+    ],
+    "links": [
+      "https://uclab.fh-potsdam.de/mapping/nahesgruen/"
+    ],
+    "short_title": "Nahes Grün / Fernes Grün "
+  },
+  {
+    "created": "7/29/2022, 4:02:15 PM",
+    "id": "202213",
+    "first_name": "Edyta",
+    "last_name": "Bogucka",
+    "organization": "Nokia Bell Labs",
+    "project_title": "Jane Jacobs in the Sky 8,400 small satellite images are used to spot the most vibrant neighborhoods in six Italian cities",
+    "project_year": "2021",
+    "project_description": "Back in the 1970s, activist Jane Jacobs theorized urban vitality and found that there are four conditions required for the promotion of life in cities: diversity of land use, small block sizes, concentration of people, and mix of economic activities. Without them, a city will die. With them, it will flourish.  With modern technologies, high pedestrian activity is, nowadays, captured from multiple sources - from mobile phones to surveillance cameras to even social media. Unfortunately, all these sources are virtually unavailable as they are held by private companies. What can be accessed by everyone? The sky!  Our project investigated whether it was possible to predict and visualize urban vitality based on one, openly available source: Sentinel-2 satellite imagery. First, we developed a state-of-the-art deep-learning framework to predict vitality scores in six Italian cities: Bologna, Florence, Milan, Palermo, Rome, and Turin. Second, we utilized image processing techniques and color frequency analysis to design a visual essay, that unfolds the connections between the vitality levels, unique city colors and typical urban features. The essay is told through four interactive visualizations: color swatches, deep-learning framework explanations, urban DNA stripes and dot grid maps. These vitality depictions are easily understandable for urban dwellers and democratize access to hidden vitality discoveries.",
+    "project_partner": "Nokia Bell Labs, Social Dynamics Team, https://social-dynamics.net/",
+    "winner": null,
+    "types": [
+      1
+    ],
+    "areas": [
+      6,
+      2,
+      19
+    ],
+    "mediums": [
+      1
+    ],
+    "authors": [
+      {
+        "name": "Edyta Bogucka, Nokia Bell Labs, UK Sanja Šćepanović, Nokia Bell Labs, UK Sagar Joglekar, Nokia Bell Labs, UK Stephen Law, University College London & The Alan Turing Institute, UK Daniele Quercia, Nokia Bell Labs, UK",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "6093d3a6-0f4f-11ed-9f63-4201c0a80002.jpg",
+      "60a99be3-0f4f-11ed-9f63-4201c0a80002.jpg",
+      "60cc58a8-0f4f-11ed-9f63-4201c0a80002.jpg",
+      "60fb927b-0f4f-11ed-9f63-4201c0a80002.jpg"
+    ],
+    "links": [
+      "https://social-dynamics.net/vitality/"
+    ],
+    "short_title": "Jane Jacobs in the Sky"
+  },
+  {
+    "created": "7/29/2022, 6:11:31 PM",
+    "id": "202214",
+    "first_name": "Edyta",
+    "last_name": "Bogucka",
+    "organization": "Nokia Bell Labs",
+    "project_title": "Streetonomics A form of computational social science that studies human behavior and cultural trends through the quantitative analysis of street names",
+    "project_year": "2020",
+    "project_description": "Throughout history, maps have been used as a tool to explore cities. They visualize a city’s urban fabric through its streets, buildings, and points of interest. Besides purely navigation purposes, street names also reflect a city’s culture through its commemorative practices. Therefore, cultural maps that unveil socio-cultural characteristics encoded in street names could potentially raise citizens’ historical awareness. But designing effective cultural maps is challenging, not only due to data scarcity but also due to the lack of effective approaches to engage citizens with data exploration. To address these challenges, we collected a dataset of 5000 streets across the cities of Paris, Vienna, London, and New York, and built their cultural maps grounded on cartographic storytelling techniques. Cultural maps engage uses and allow them to discover distinct patterns in the ways these cities are gender-biased, celebrate various professions, and embrace foreign cultures.",
+    "project_partner": " ",
+    "winner": null,
+    "types": [
+      1
+    ],
+    "areas": [
+      3,
+      2
+    ],
+    "mediums": [
+      1
+    ],
+    "authors": [
+      {
+        "name": "Edyta Bogucka, Nokia Bell Labs, UK Marios Constantinides, Nokia Bell Labs, UK Luca Maria Aiello, Nokia Bell Labs, UK Daniele Quercia, Nokia Bell Labs, UK Wonyoung So, Massachusetts Institute of Technology, US Melanie Bancilhon, Washington University in Saint Louis, US",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "fa29ba89-0f60-11ed-9f63-4201c0a80002.jpg",
+      "fa97b662-0f60-11ed-9f63-4201c0a80002.jpg",
+      "faa7d910-0f60-11ed-9f63-4201c0a80002.jpg",
+      "faf0601f-0f60-11ed-9f63-4201c0a80002.jpg"
+    ],
+    "links": [
+      "http://social-dynamics.net/streetonomics/"
+    ],
+    "short_title": "Streetonomics"
+  },
+  {
+    "created": "7/29/2022, 6:58:31 PM",
+    "id": "202215",
+    "first_name": "Kerstin",
+    "last_name": "Humm",
+    "organization": "",
+    "project_title": "How European States Decide on Asylum",
+    "project_year": "2022",
+    "project_description": "Through our web application, we want to make decisions on asylum in Europe, 2 their proportions and developments since the year 2000 more easily accessible and visible using UNHCR data. By exploring the data, you can get an impression of how likely it has been for people from a certain country of origin to be granted or denied asylum in Europe. Two European countries of asylum can be compared at a time. Furthermore, the fragmentation of asylum decisions beyond recognized and rejected is inherently visible due to the further categories of complementary protection and otherwise closed. Beyond the comparison of relative proportions between decision categories within a country as well as between countries, the absolute figures of decisions are set in relation to the number of inhabitants of each chosen country. This can give you an understanding of how high or low the number of decisions is and puts the number into perspective. Another aspect the web app allows you to investigate is that of temporal evolutions in decisions from 2000 until last year.",
+    "project_partner": "",
+    "winner": null,
+    "types": [
+      15
+    ],
+    "areas": [
+      1,
+      4
+    ],
+    "mediums": [
+      1
+    ],
+    "authors": [
+      {
+        "name": "Frieda Grimm Katharina Schürmann Kerstin Humm Kübra Sari Séraphime Reznikoff",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "dd77dbf4-0f67-11ed-9f63-4201c0a80002.jpg"
+    ],
+    "links": [
+      "https://uclab.fh-potsdam.de/mapping/asylum/LKA/FRA/GBR"
+    ],
+    "short_title": "How European States Decide on Asylum"
+  },
+  {
+    "created": "7/31/2022, 5:15:27 PM",
+    "id": "202216",
+    "first_name": "Hülya",
+    "last_name": "Lasch",
+    "organization": "Digital City Science - HafenCity University",
+    "project_title": "Designing urban landscapes digitally.  Web-GIS mapping tool of Berlin TXL",
+    "project_year": "2021",
+    "project_description": "Data on urban issues is becoming much more important, both in managing time and resources and in shaping the future. In times of smart cities, urban planners who have to deal with data visualisation on a daily basis are among the most important actors. In addition, there is the highly collaborative interdisciplinary expert world of designers, programmers, engineers, architects and planners in the field of urban development.  Not only the experts, but also the economy, citizens and politicians want something \"visible\".  In this master’s thesis I have developed an interactive map for the urban development project Berlin-Tegel Airport (TXL), directly with Tegel Projekt GmbH. The basic idea is to investigate the relevance and usefulness of web GIS for urban planning. The core of the thesis is concerned with the question of how modern urban planning processes can be supported by data-based tools. The master’s thesis examines the interplay between modern visualisation tools and classical urban planning activities. The content and connectivity of the work is starting from the content of urban planning studies, bridges to methods of design and software development, to geoinformatics and data science. The Web-GIS mapping tool for the Berlin TXL clearly demonstrates the benefits of Open Data and its possibilities for advanced geodata visualisation and for supporting collaborative planning and development processes. The methodical process from data analysis, user-centred design, surveys, the conception and evaluation of a prototypical mapping tool is exemplary. As a result, the use of interactive maps in planning is given not enough attention, although digital mapping tools support collaborative working. Future research could work on the aspect of collaborative working by facilitating the integration of interdisciplinary exchange through web-based mapping technologies. ",
+    "project_partner": "Tegel Projekt GmbH",
+    "winner": null,
+    "types": [
+      15
+    ],
+    "areas": [
+      6,
+      2
+    ],
+    "mediums": [
+      1
+    ],
+    "authors": [
+      {
+        "name": "Hülya Lasch",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "8a7aa306-10ea-11ed-9f63-4201c0a80002.jpg",
+      "8a8e9b1e-10ea-11ed-9f63-4201c0a80002.jpg"
+    ],
+    "links": [
+      "https://hulyalasch.github.io/FlughafenTegel3/ https://cloud.hcu-hamburg.de/nextcloud/s/tey7s4a3Cx23c8L"
+    ],
+    "short_title": "Web-GIS mapping tool of Berlin TXL"
+  },
+  {
+    "created": "7/31/2022, 8:02:55 PM",
+    "id": "202217",
+    "first_name": "Puripant",
+    "last_name": "Ruchikachorn",
+    "organization": "Boonmee Lab",
+    "project_title": "Domestic Tourism Planning via Mobility Data",
+    "project_year": "2022",
+    "project_description": "The COVID-19 pandemic and related public policies have resulted in a global decline in international tourist arrivals. Thailand had relied on foreign visitors for its overall economic growth. Amidst stagnant international arrivals, a stronger domestic tourism sector can be a solution.  However, Thailand does not have many public data sources on tourism business and tourist behavior. Through partnership between Boonmee Lab, DTAC, and Faculty of Architecture, Chulalongkorn University, we aim to utilize mobility data to understand the current state of domestic tourism and devise a data-driven strategy to promote local tourism.  We aggregated Call Detail Record (CDR) into trips and visualized them in a modified FlowmapBlue. After back-and-forth analysis and discussion sessions, we found some regional trip patterns which were different from conventional tourism clusters by solely historical, educational, or geographical purposes.  With further analysis, we will publish a full report, produce communication materials, and host a forum with our partner organizations to disseminate the results. A limited version of our map tool will also be released for public use. We hope this project can lead to data-driven development of domestic tourism in Thailand.",
+    "project_partner": "Boonmee Lab Total Access Communication Public Company Limited (DTAC) Faculty of Architecture; Chulalongkorn University Chulalongkorn Business School; Chulalongkorn University",
+    "winner": null,
+    "types": [
+      23
+    ],
+    "areas": [
+      1,
+      6
+    ],
+    "mediums": [
+      1,
+      2,
+      29
+    ],
+    "authors": [
+      {
+        "name": "Puripant Ruchikachorn, Boonmee Lab Thitiphong Luangaroonlerd, Boonmee Lab Rapee Suveeranont, Boonmee Lab",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "f4e5ca1a-10e5-11ed-9f63-4201c0a80002.jpg",
+      "57469a3f-10e6-11ed-9f63-4201c0a80002.jpg",
+      "57678e03-10e6-11ed-9f63-4201c0a80002.jpg",
+      "57b7d520-10e6-11ed-9f63-4201c0a80002.jpg",
+      "5895ceb8-10e6-11ed-9f63-4201c0a80002.jpg"
+    ],
+    "links": [
+      ""
+    ],
+    "short_title": "Domestic Tourism Planning via Mobility Data"
+  },
+  {
+    "created": "8/1/2022, 2:22:14 AM",
+    "id": "202218",
+    "first_name": "Leon",
+    "last_name": "Döring",
+    "organization": "",
+    "project_title": "AUTO-NOM. Ich sehe was, das du nicht siehst. VR visualization of urban autonomous driving data",
+    "project_year": "2022",
+    "project_description": "Utilizing open-source research data for autonomous vehicles, AUTO-NOM investigates how a self-driving car perceives the urban landscape, and how us humans can reshape our perception of the city by looking at it through the lens of an autonomous vehicle.   In this Virtual Reality experience, the viewer takes a 15 minute ride through central Munich from the point of view of an autonomous research vehicle. What they see however, is a visualization of the point-cloud data the car’s 3D sensors have recorded. This data, corresponding to hundreds of gigabytes, is represented by hundreds of thousands of small monochromatic cubes, which results in an abstract, three-dimensional, 360 degree image of the car’s surroundings. In addition, AI object recognition annotations have been layered on top of this 3D animation. This was done using AI image processing software on the car’s 2D camera footage, replicating the way an autonomous vehicle algorithmically processes its environment. Further non-visual sensor information such as acceleration data has been transformed into an underlying soundscape using sonification software.  Viewing an urban environment in the way an autonomous vehicle would, gives us the opportunity to look at the city differently and re-evaluate. For example, one might interpret the way humans morph into indistinguishable silhouettes, while the shape of cars and other vehicles stay relatively detailed and recognizable, as mirroring the hierarchy of a typical car-centric city. While possibly being safer than human drivers in the future, the need of robotic cars for error-free assessment of a situation might require more clean, segregated traffic infrastructure. This could conflict with the nature of many European city centers, possibly undoing recent progress of making urban infrastructure less car-centric.   The original format of this project is a real-time VR experience using the Unity game engine running on a high-end PC. To make it accessible without the need for powerful hardware, it has been submitted as a high-resolution 360 degree 3D video and as such is viewable on a number of devices, including standalone VR headsets and mobile devices. This project originated as a student submission for a class at the Institute of Media and Design (IMD) of Technische Universität Braunschweig and has been exhibited at Architekturgalerie München in June 2022. It uses data from the Audi Autonomous Driving Dataset (A2D2) licensed under Creative Commons, see https://a2d2.audi. The authors are not affiliated with Audi AG in any way.",
+    "project_partner": "Institute of Media and Design TU Braunschweig, imd.tu-bs.de",
+    "winner": null,
+    "types": [
+      15
+    ],
+    "areas": [
+      1
+    ],
+    "mediums": [
+      1,
+      3,
+      12
+    ],
+    "authors": [
+      {
+        "name": "Leon Döring, TU Braunschweig Moritz Gnann, FH Potsdam",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "c4e2cc0e-1126-11ed-9f63-4201c0a80002.jpg",
+      "f3bacb16-1126-11ed-9f63-4201c0a80002.jpg",
+      "3327ddea-1138-11ed-9f63-4201c0a80002.jpg"
+    ],
+    "links": [
+      "https://youtu.be/j9V1hzlbzQo https://shared-assets.adobe.com/link/22ff30bb-d9b1-481b-67f5-08a28e78fe3e"
+    ],
+    "short_title": "AUTO-NOM"
+  },
+  {
+    "created": "8/1/2022, 9:44:28 AM",
+    "id": "202219",
+    "first_name": "Merve ",
+    "last_name": "Özkılıç",
+    "organization": "Koç University – Stavros Niarchos Foundation Center for Late Antique and Byzantine Studies (GABAM)",
+    "project_title": "Istanbul City Walls Project",
+    "project_year": "2021",
+    "project_description": "The project aims to document and visualize the Byzantine city walls of Istanbul digitally on a platform open for public use. The platform itself was designed to achieve optimum user experience while navigating. It is not only visually documenting the current situation of a huge monument (which surrounds the ancient city), but also bring together all available information on the walls which include old photographs and engravings, many drawings especially of the gates, inscriptions and architectural sculpture used on the walls, Ottoman archival documents mentioning the walls along with related scholarly knowledge. The task was completed by a team of researchers and professionals from various fields, including art historians, archaeologists, architects, epigraphers, historians, photographers (one of which is also an archaeologist), web design and visualization experts. The main aspects of the project are as in below: •     Visual documentation of the existing walls surrounding the “Historical Peninsula” of Istanbul (app. 22 km in length). Every piece of the city walls (curtain wall, towers and gates) have been photographed from every possible angle by professional photographers with over 6.000 photographs. Documentation also included video recordings from air by drone following the whole line of the sea and land walls. •     Mapping the architectural units of the walls based on GPS coordinates, as accompanied by visual documentation and concise written descriptions. •     Producing up-to-date scientific essays by the experts to reveal the past and current situation of the monument. •     Studying the relation of the walls to the modern city, both physically and culturally; the impact of the walls on life and culture of the city (example: walls in modern Turkish movies). •     Providing up-to-date visual and textual sources for the future restoration/conservation works. •     Sharing all the data globally. The site is bilingual (Turkish and English). •     Presenting a visually explicit and convenient tool for website visitors.  ",
+    "project_partner": "",
+    "winner": null,
+    "types": [
+      1
+    ],
+    "areas": [
+      3,
+      2
+    ],
+    "mediums": [
+      1
+    ],
+    "authors": [
+      {
+        "name": "Prof. Dr. Engin AKYÜREK Prof. Dr. Neslihan ASUTAY-EFFENBERGER Dr. Nisa SEMİZ Merve ÖZKILIÇ Hüseyin KUŞCU Assoc. Prof. Dr. Asım Evren YANTAÇ Dr. Damla ÇAY Prof. Dr. Zeynep AHUNBAY Prof. Dr. Albrecht BERGER Prof. Dr. James CROW Dr. Siren ÇELİK Prof. Dr. Arne EFFENBERGER Ayhan HAN Dr. Michael JONES Zeynep OLGUN Doç. Dr. Hüseyin Sami ÖZTÜRK Vasiliki PAPADOPOULOU Dr. Nisa SEMİZ Zeynep SERİNKAYA-WINTER Gökhan TAN Dr. Maria TOMADAKI",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "fe8e53c0-1175-11ed-9f63-4201c0a80002.jpg",
+      "ff07a775-1175-11ed-9f63-4201c0a80002.jpg",
+      "ff70cfbc-1175-11ed-9f63-4201c0a80002.jpg",
+      "010bffc1-1176-11ed-9f63-4201c0a80002.jpg",
+      "016bbf70-1176-11ed-9f63-4201c0a80002.jpg",
+      "0240c7be-1176-11ed-9f63-4201c0a80002.jpg"
+    ],
+    "links": [
+      "https://istanbulcitywalls.ku.edu.tr/en"
+    ],
+    "short_title": "Istanbul City Walls Project"
+  },
+  {
+    "created": "8/1/2022, 7:02:38 PM",
+    "id": "202220",
+    "first_name": "Cristiano",
+    "last_name": "Dalbem",
+    "organization": "ITDP+UCB",
+    "project_title": "CicloMapa",
+    "project_year": "2019",
+    "project_description": "Today in Brazil we face a big challenge of not having data on the cycling infrastructure available in our cities. This makes it very hard to paint a clear picture of our reality and calculate the relevant metrics to measure the opportunities and impacts to society of improving urban mobility. The most common problems with current solutions are not standardized data and typologies, data not being available publicly, or sometimes data not existing at all.  UCB (Brazil Cyclists Union) and ITDP (Institute for Transport and Development Policy) are two influential civil society organizations that have joined forces to solve once and for all these problems. We've developed the first cycling maps platform encompassing all Brazilian cities, leveraging the open data and collaborativeness of OpenStreetMap (OSM). We've created an open-source web application, free and accessible from any computer or smartphone, aimed at both the average citizen, who wants to know more about their city, and researchers, who now have easy access to this data without needing OSM knowledge.  On the newly released version of the website we even took a step further from just making the data available and launched a new Metrics section. Following a \"show don't tell\" logic, we are giving examples of what you can do when you have this data in your hands. For the time ever it's now possible to check in real time the total length of cycling infrastructure in all Brazilian cities. Knowing, however, how limited and misleading this metric alone can be, we joined forces with other institutions that develop other important metrics, such as the PNB (People Near Bike), which measures how accessible the infraestruture is to people, and IDEciclo, which measures its quality.  In conjunction with the platform, we're organizing educational programs to evangelize and educate people on how to contribute with OSM, thus empowering citizens to take part in this collaborative process and gaining ownership of our cities' data. ",
+    "project_partner": "",
+    "winner": null,
+    "types": [
+      23
+    ],
+    "areas": [
+      1,
+      6,
+      3,
+      4
+    ],
+    "mediums": [
+      1,
+      2,
+      30
+    ],
+    "authors": [
+      {
+        "name": "Cristiano Dalbem Leonardo Veiga, ITDP Brasil Felipe Alves, UCB",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "19765987-11c4-11ed-9f63-4201c0a80002.jpg"
+    ],
+    "links": [
+      "https://ciclomapa.org.br https://cristianodalbem.com/ciclomapa/ https://www.uniaodeciclistas.org.br/ciclomapa/"
+    ],
+    "short_title": "Beautiful interactive & collaborative bike maps"
+  },
+  {
+    "created": "8/2/2022, 2:08:38 AM",
+    "id": "202221",
+    "first_name": "Nicholas Zbigniew",
+    "last_name": "Pretto Kaminski",
+    "organization": "University of São Paulo (USP)",
+    "project_title": "Data Visualization for Urban Problems: The waters of São Paulo and the climate emergency",
+    "project_year": "2022",
+    "project_description": "My undergraduate thesis on Architecture and Urbanism was a book on the relation of the city of São Paulo and its waters with the climate emergency. The book includes 18 infographics based on data visualization adressing topics such as the relationship between the city and its rivers, the overwhelming urban sprawl of São Paulo, the recent already perceptible change in meteorological events and the possibilities to develop urban resilience. It is a reminder that a smart city is the one that fosters ways to adapt and thrive in face of the climate crisis.  The full work contains a report explaining the methodology used in each infographic, as well as their references.",
+    "project_partner": "Prof. Leandro Manuel Reis Velloso - Ph.D. (advisor), University of São Paulo Prof. Denise Helena Silva Duarte - Ph.D. (co-advisor), University of São Paulo",
+    "winner": null,
+    "types": [
+      15
+    ],
+    "areas": [
+      19,
+      2
+    ],
+    "mediums": [
+      2,
+      1
+    ],
+    "authors": [
+      {
+        "name": "Nicholas Z Pretto Kaminski, University of São Paulo",
+        "organization": "",
+        "sort": 0
+      }
+    ],
+    "imageNames": [
+      "782f9b09-11ff-11ed-9f63-4201c0a80002.jpg",
+      "83a14a51-11ff-11ed-9f63-4201c0a80002.jpg",
+      "86bd1d81-11ff-11ed-9f63-4201c0a80002.jpg",
+      "87f0fd4c-11ff-11ed-9f63-4201c0a80002.jpg",
+      "893d9dff-11ff-11ed-9f63-4201c0a80002.jpg",
+      "9149ccbf-11ff-11ed-9f63-4201c0a80002.jpg"
+    ],
+    "links": [
+      "https://drive.google.com/drive/u/0/folders/1ATtaCUZXodpZS1GLJ4c_fyt4VammkQe3"
+    ],
+    "short_title": "The waters of São Paulo and the climate emergency"
+  },
+  {
     "created": "2016-06-21 11:58:32",
     "id": "1",
     "first_name": "Sebastian",

@@ -2,7 +2,10 @@ _legacy
 dist
 _tmpImages
 _images
+_newImages
 _videoFrames
+_newimages
+_scripts/*.json
 _scripts/*.mp4
 
 ## Node.js

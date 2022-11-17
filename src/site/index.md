@@ -36,7 +36,7 @@ eleventyNavigation:
 <section class="section upcoming upcoming-section">
   <h2>Upcoming</h2>
   <div class="upcoming__events">
-		<div class="upcoming__events-event">
+		<!--<div class="upcoming__events-event">
 				<a href="/exhibitions/2022/symposium_en">
 						<img class="upcoming__events-event-image" src="../assets/img/upcoming-teasers/symposium-2022-en.png" alt="CityVis Symposium 2022">
 				</a>
@@ -53,7 +53,7 @@ eleventyNavigation:
 				Wir freuen uns die diesjährige Ausstellung mit einem spannenden Panel von Sprecher*innen eröffnen zu dürfen, mit welchen wir den Diskurs um die "Smart City" mit neuen Perspektiven weiter öffnen wollen. Online oder in Person.
 				<br />
 				<a class="upcoming-link" href="/exhibitions/2022/symposium_de">Mehr erfahren &amp; registrieren</a>
-		</div>
+		</div>-->
 		<div class="upcoming__events-event">
 				<a href="/exhibitions/2022/en">
 						<img class="upcoming__events-event-image" src="../assets/img/upcoming-teasers/exhibition-2022-en.png" alt="CityVis Exhibition 2022">
@@ -72,7 +72,7 @@ eleventyNavigation:
 				<br />
 				<a class="upcoming-link" href="/exhibitions/2022/de">Mehr erfahren</a>
 		</div>
-		<div class="upcoming__events-event">
+		<!--<div class="upcoming__events-event">
 				<a href="/workshops/2022/">
 						<img class="upcoming__events-event-image" src="../assets/img/upcoming-teasers/teaser-workshop-2022.png" alt="CityVis Workshop 2022">
 				</a>
@@ -80,7 +80,7 @@ eleventyNavigation:
 				Submit an abstract and join our next (hybrid) scientific workshop on Nov 4th, to contribute to the ongoing discourse on visualising cities.
 				<br/>
 				<a class="upcoming-link" href="/workshops/2022/">Join the conversation</a>
-		</div>
+		</div>-->
 		<!--<div class="upcoming__events-event">
 				<a href="/competitions/2022/">
 						<img class="upcoming__events-event-image" src="../assets/img/upcoming-teasers/teaser-competition-2022.png" alt="CityVis Competition 2022">

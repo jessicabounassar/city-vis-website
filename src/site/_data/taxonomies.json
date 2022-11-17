@@ -4,12 +4,12 @@
       {
         "key": "Research",
         "id": 1,
-        "count": 116
+        "count": 124
       },
       {
         "key": "Journalistic",
         "id": 2,
-        "count": 28
+        "count": 29
       },
       {
         "key": "Contract",
@@ -24,7 +24,7 @@
       {
         "key": "Student",
         "id": 15,
-        "count": 8
+        "count": 16
       },
       {
         "key": "Education",
@@ -107,6 +107,16 @@
         "key": "Digitisation, Data Divide",
         "id": 19,
         "count": 1
+      },
+      {
+        "key": "Art & Advocacy",
+        "id": 22,
+        "count": 1
+      },
+      {
+        "key": "Contract work",
+        "id": 23,
+        "count": 2
       }
     ]
   },
@@ -115,22 +125,22 @@
       {
         "key": "Mobility",
         "id": 1,
-        "count": 42
+        "count": 51
       },
       {
         "key": "Culture",
         "id": 3,
-        "count": 47
+        "count": 53
       },
       {
         "key": "Civic",
         "id": 4,
-        "count": 37
+        "count": 40
       },
       {
         "key": "Planning",
         "id": 6,
-        "count": 67
+        "count": 75
       },
       {
         "key": "Housing",
@@ -150,7 +160,7 @@
       {
         "key": "Sustainability",
         "id": 19,
-        "count": 1
+        "count": 8
       },
       {
         "key": "Environment",
@@ -182,7 +192,7 @@
       {
         "key": "Urban Development",
         "id": 2,
-        "count": 78
+        "count": 90
       },
       {
         "key": "Real estate",
@@ -293,6 +303,16 @@
         "key": "Water",
         "id": 34,
         "count": 2
+      },
+      {
+        "key": "Nature",
+        "id": 37,
+        "count": 4
+      },
+      {
+        "key": "Real Estate",
+        "id": 38,
+        "count": 1
       }
     ]
   },
@@ -301,17 +321,17 @@
       {
         "key": "Information Visualization",
         "id": 1,
-        "count": 142
+        "count": 161
       },
       {
         "key": "Infographic",
         "id": 2,
-        "count": 21
+        "count": 24
       },
       {
         "key": "Animation",
         "id": 3,
-        "count": 15
+        "count": 16
       },
       {
         "key": "Film",
@@ -321,7 +341,7 @@
       {
         "key": "Physical Installation",
         "id": 6,
-        "count": 24
+        "count": 25
       },
       {
         "key": "Digitisation",
@@ -331,7 +351,7 @@
       {
         "key": "Virtual Reality",
         "id": 12,
-        "count": 6
+        "count": 7
       },
       {
         "key": "Augmented Reality",
@@ -351,7 +371,7 @@
       {
         "key": "Interactive",
         "id": 23,
-        "count": 1
+        "count": 2
       },
       {
         "key": "Web application",
@@ -434,6 +454,21 @@
         "key": "Other",
         "id": 27,
         "count": 2
+      },
+      {
+        "key": "Data journalism",
+        "id": 28,
+        "count": 1
+      },
+      {
+        "key": "Web Application",
+        "id": 29,
+        "count": 1
+      },
+      {
+        "key": "Website/webapp",
+        "id": 30,
+        "count": 1
       }
     ]
   }
