@@ -66,6 +66,9 @@ permalink: "collection/project/{{ project.short_title | slugify }}/"
 <h2>Links</h2>
 <ul class="project__link-list">
 {% for link in project.links %}
+{% if link.value %}
+{% set link = link.value %}
+{% endif %}
 <li class="project__link-list__item">
 <a href="{{link}}">
 {{ link | truncate(30) }}
