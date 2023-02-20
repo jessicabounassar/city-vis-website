@@ -67,8 +67,8 @@ permalink: "collection/project/{{ project.short_title | slugify }}/"
 <ul class="project__link-list">
 {% for link in project.links %}
 <li class="project__link-list__item">
-<a href="{{link.value}}">
-{{ link.value | truncate(30) }}
+<a href="{{link}}">
+{{ link | truncate(30) }}
 </a>
 </li>
 {% endfor %}	
